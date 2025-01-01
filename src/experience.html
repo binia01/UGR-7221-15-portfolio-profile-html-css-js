@@ -4,80 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience - Binyam Abrha</title>
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/experience.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="logo">LOGO</div>
         <nav class="nav-bar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+            <a href="home.html" class="logo">BINYAM ABRHA</a>
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <h2>Experience</h2>
-        <section>
+        <section class="education">
             <h2>Education</h2>
-            <div class="resources">
-                <article>
+            <div class="education-section">
+                <article class="school">
                     <img src="images/icons/hillsideschool.jpg" alt="Hillside School Icon">
-                    <h3>Hillside School</h3>
-                    <p>High School Diploma</p>
-                    <p>Duration: 2018 - 2022</p>
+                    <div class="content">
+                        <h3>Hillside School</h3>
+                        <p>High School Diploma</p>
+                        <p>Duration: 2018 - 2022</p>
+                        <p>Location: Addis Ababa, Ethiopia</p>
+                        <p>Achievements: Graduated with honors</p>
+                        <div class="icons">
+                            <img src="./images/icons/graduate.png" alt="graduate">
+                            <img src="./images/icons/trophy.png" alt="trophy">
+                        </div>
+                    </div>  
                 </article>
-                <article>
+                <article class="school">
                     <img src="images/icons/aau.jpg" alt="Addis Ababa University Icon">
-                    <h3>Addis Ababa University </h3>
-                    <p>Degree: Bachelor of Science in Software Engineering</p>
-                    <p>Duration: 2022 - 2027</p>
-                </article>
-                
+                    <div class="content">
+                        <h3>Addis Ababa University </h3>
+                        <p>Degree: Bachelor of Science in Software Engineering</p>
+                        <p>Duration: 2022 - 2027</p>
+                        <p>Location: Addis Ababa, Ethiopia</p>
+                        <p>Projects: Developed a Portfolio Website showcasing personal projects.</p>
+                        <div class="icons">
+                            <img src="./images/icons/wrench.png" alt="settings">
+                            <img src="./images/icons/settings.png" alt="computer">
+                        </div>
+                    </div>
+                </article> 
             </div>
         </section>
 
-    
-        <section>
-            <h2>Volunteer Work</h2>
-            <div class="resources">
+        <section class="volunteer">
+            <h2>Volunteer</h2>
+            <div class="volunteer-section">
                 <div class="video-container">
-                    <video src="Videos/volunteering.mp4" loop autoplay muted controls width="640" height="360">
+                    <video src="Videos/volunteering.mp4" loop autoplay muted controls width="613" height="260">
                         Your browser does not support the video tag.
                     </video>
+                    <h3>Skills gained:</h3>
+                    <ol class="quality">
+                        <li>Leadership & Coordination</li>
+                        <li>Event Planning</li>
+                        <li>Communication & Interpersonal Skills</li>
+                    </ol>
+                    <div class="gainedskill">
+                        <img src="./images/icons/trashcan.png" alt="trashcan">
+                        <img src="./images/icons/helping-hand.png" alt="trashcan">
+                    </div>
                 </div>
                 
                 <div class="activities-list">
-                    <ul>
+                    <p class="heading">Community Engagement and Volunteer Experience</p>
+                    <ul class="activities">
                         <li>
-                            <article>
+                            <article class="participation">
                                 <h3>Community Clean-Up Initiative</h3>
-                                <p>Role: Team Leader</p>
-                                <p>Organized and led weekly clean-ups in local parks, engaging over 50 volunteers.</p>
+                                <p class="role">Role: Team Leader</p>
+                                <p class="contribution">Organized and led weekly clean-ups in local parks, engaging over 50 volunteers.</p>
                             </article>
                         </li>
                         <li>
-                            <article>
+                            <article class="participation">
                                 <h3>Animal Shelter Volunteer</h3>
-                                <p>Role: Caregiver</p>
-                                <p>Assisted in caring for animals and coordinating adoption events to find homes for pets.</p>
+                                <p class="role">Role: Caregiver</p>
+                                <p class="contribution">Assisted in caring for animals and coordinating adoption events to find homes for pets.</p>
                             </article>
                         </li>
                         <li>
-                            <article>
+                            <article class="participation">
                                 <h3>Food Bank Assistance</h3>
-                                <p>Role: Volunteer Coordinator</p>
-                                <p>Managed food drives and distribution, ensuring resources reached over 200 families.</p>
+                                <p class="role">Role: Volunteer Coordinator</p>
+                                <p class="contribution">Managed food drives and distribution, ensuring resources reached over 200 families.</p>
                             </article>
                         </li>
                         <li>
-                            <article>
+                            <article class="participation">
                                 <h3>Youth Mentorship Program</h3>
-                                <p>Role: Mentor</p>
-                                <p>Provided guidance and skill-building workshops to underprivileged youth.</p>
+                                <p class="role">Role: Mentor</p>
+                                <p class="contribution">Provided guidance and skill-building workshops to underprivileged youth.</p>
                             </article>
                         </li>
                     </ul> 
@@ -86,23 +111,23 @@
         </section>
 
         
-        <section>
-            <h2>Work Experience</h2>
+        <section class="work">
+            <h2>Work</h2>
             <div class="work-grid">
-                <article>
-                    <h3>Company 1</h3>
-                    <p>Role: Software Engineer</p>
-                    <p>Duration: Jan 2020 - Dec 2022</p>
+                <article class="company">
+                    <h3>Software Engineer</h3>
+                    <p class="p1">Company 1<br>Duration: Jan 2020 - Dec 2022</p>
+                    <p class="p2">Developed scalable web applications<br>Collaborated with cross-functional teams<br>Enhanced system performance by 30%</p>
                 </article>
-                <article>
-                    <h3>Company 2</h3>
-                    <p>Role: Frontend Developer</p>
-                    <p>Duration: Jan 2018 - Dec 2019</p>
+                <article class="company">
+                    <h3>Frontend Developer</h3>
+                    <p class="p1">Company 2<br>Duration: Jan 2018 - Dec 2019</p>
+                    <p class="p2">Implemented responsive design<br>Optimized loading speed by 25%<br>Led UI/UX improvement projects</p>
                 </article>
-                <article>
-                    <h3>Company 3</h3>
-                    <p>Role: Intern</p>
-                    <p>Duration: Summer 2017</p>
+                <article class="company">
+                    <h3>Junior Developer</h3>
+                    <p class="p1">Company 3<br>Duration: Summer 2017</p>
+                    <p class="p2">Assisted in developing mobile applications<br>Maintained code quality across projects<br>Implemented new features based on client feedback</p>
                 </article>
             </div>
         </section>

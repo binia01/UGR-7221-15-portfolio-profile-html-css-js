@@ -4,74 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binyam Abrha</title>
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/home.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="logo">LOGO</div>
         <nav class="nav-bar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+            <a href="home.html" class="logo">BINYAM ABRHA</a>
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <section class="intro">
-            <h1 id="intro">Welcome to My Portfolio</h1>
-            <div>
-              <p>
-                Hello! I’m a passionate web developer with a knack for building engaging user experiences. This site showcases my work, achievements, and aspirations. Have a look around!
-              </p>
-              <video src="Videos/binyam_intro.mp4" loop autoplay muted controls width="640" height="360">
-                Your browser does not support the video tag.
-              </video>
+            <div class="intro-text">
+                <h1>Hi, I'm Binyam,</h1>
+                <p>
+                    I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. This site showcases my work, achievements, and aspirations. Have a look around!
+                </p>
+                <p>Addis Ababa, Ethiopia</p>
+                <p>Available for new projects</p>
             </div>
+            <img src="./images/BINYAM.png">
         </section>
 
-        <section class="project-list">
-            <h2 id="project-list">My Projects</h2>
-            <ul>
+        <section class="projects">
+            <h2>My Projects</h2>
+            <ul class="project-list">
               <li>
-                <img src="images/weather-app.png" alt="Weather App">
-                <div class="project-content">
-                    <h2>Weather Tracker</h2>
-                    <p>A real-time weather forecasting app that provides accurate data for any location. Features include temperature, humidity, and weekly forecasts.</p>
-                    <div class="project-icons">
-                        <img src="images/icons/html.png" alt="HTML Icon" width="100" height="100">
-                        <img src="images/icons/css-3.png" alt="CSS Icon" width="100" height="100">
-                        <img src="images/icons/js.png" alt="JavaScript Icon" width="100" height="100">
+                <div class="project-card">
+                    <img src="images/weather-app.png" alt="Weather App">
+                    <div class="project-content">
+                        <h2>Weather Tracker</h2>
+                        <p>
+                            A real-time weather forecasting app that provides accurate data for any location. 
+                        </p>
+                        <div class="project-icons">
+                            <img src="images/icons/html.png" alt="HTML Icon">
+                            <img src="images/icons/css-3.png" alt="CSS Icon">
+                            <img src="images/icons/js.png" alt="JavaScript Icon">
+                        </div>
                     </div>
-                    <button>View Project</button>
                 </div>
               </li>
               <li>
-                <img src="images/calculator.png" alt="Calculator">
-                <div class="project-content">
-                    <h2>Calculator</h2>
-                    <p>An intuitive app that allows users to perform basic mathematical operations.</p>
-                    <div class="project-icons">
-                        <img src="images/icons/react.png" alt="React Icon" width="100" height="100">
-                        <img src="images/icons/node-js.png" alt="Node.js Icon" width="100" height="100">
-                        <img src="images/icons/mysql.png" alt="MYSQL Icon" width="100" height="100">
+                <div class="project-card">
+                    <img src="images/calculator.png" alt="Calculator">
+                    <div class="project-content">
+                        <h2>Calculator</h2>
+                        <p>An intuitive app that allows users to perform basic mathematical operations.</p>
+                        <div class="project-icons">
+                            <img src="images/icons/react.png" alt="React Icon">
+                            <img src="images/icons/node-js.png" alt="Node.js Icon">
+                            <img src="images/icons/mysql.png" alt="MYSQL Icon">
+                        </div>
                     </div>
-                    <button>View Project</button>
                 </div>
               </li>
               <li>
-                <img src="images/task.png" alt="Task Manager">
-                <div class="project-content">
-                    <h2>Task Manager</h2>
-                    <p>A productivity app designed to manage daily tasks effectively. Includes features like reminders, priority tagging, and collaboration tools.</p>
-                    <div class="project-icons">
-                        <img src="images/icons/react.png" alt="React Icon" width="100" height="100">
-                        <img src="images/icons/node-js.png" alt="Node node-js Icon" width="100" height="100">
-                        <img src="images/icons/python.png" alt="Python Icon" width="100" height="100">
+                <div class="project-card">
+                    <img src="images/task.png" alt="Task Manager">
+                    <div class="project-content">
+                        <h2>Task Manager</h2>
+                        <p>A productivity app designed to manage daily tasks effectively and efficiently..</p>
+                        <div class="project-icons">
+                            <img src="images/icons/react.png" alt="React Icon">
+                            <img src="images/icons/node-js.png" alt="Node node-js Icon">
+                            <img src="images/icons/python.png" alt="Python Icon">
+                        </div>
                     </div>
-                    <button>View Project</button>
                 </div>
               </li>
             </ul>
@@ -79,24 +86,12 @@
         </section>
 
         <section class="interests">
-            <h2 id="interests">My Interests</h2>
+            <h2>My Interests</h2>
             <div class="interests-gallery">
-                <figure>
-                    <img src="images/setup.jpg" alt="Coding setup" width="500" height="400">
-                    <figcaption>Coding</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/hiking.jpg" alt="Beautiful travel destination" width="500" height="400">
-                    <figcaption>Travel and Hiking</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/photography.jpg" alt="Photography equipment" width="500" height="400">
-                    <figcaption>Photography</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/fitness.jpg" alt="Fitness activities" width="500" height="400">
-                    <figcaption>Fitness and Health</figcaption>
-                </figure>
+                <img src="images/setup.jpg" alt="Coding setup">
+                <img src="images/hiking.jpg" alt="Beautiful travel destination">
+                <img src="images/photography.jpg" alt="Photography equipment">
+                <img src="images/fitness.jpg" alt="Fitness activities">
             </div>
             <a href="about.html" class="button">Learn More About Me</a>
         </section>

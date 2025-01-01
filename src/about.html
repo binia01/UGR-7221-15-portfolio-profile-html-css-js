@@ -4,117 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Binyam Abrha</title>
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/about.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">LOGO</div>
-        <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="./home.html" class="logo">BINYAM ABRHA</a>
+            <ul class="links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <section aria-labelledby="profile">
-            <h1 id="profile">About Me</h1>
-            <div>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <div class="intro-para">
               <figure>
-                <img src="images/binyam_profile.jpg" alt="My profile picture" width="500" height="400">
+                <img src="images/binyam_profile.jpg" alt="My profile picture" width="394" height="400">
               </figure>
-              <p>
-                I am a self-driven software engineer with experience in building scalable and efficient web applications. My journey in tech began with curiosity and has evolved into a career filled with continuous learning and challenges.
-              </p>
+              <div class="intro-text">
+                <h3>
+                    Interested in learning more about me? Here it is:
+                  </h3>
+                  <p>I am a self-driven software engineer with experience in building scalable and efficient web applications. My journey in tech began with curiosity and has evolved into a career filled with continuous learning and challenges.</p>
+                  <p>
+                    I began my journey as a web developer in 2022, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Over the course of my development career, I have worked with cutting-edge technologies such as React, JavaScript, HTML5, and CSS3, alongside frameworks like Bootstrap and Tailwind CSS. I have also gained experience with backend technologies like Node.js and databases such as MongoDB.
+                  </p>
+                  <p>
+                    I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
+                  </p>
+              </div>
+              
             </div>
         </section>
       
-        <section aria-labelledby="skills">
-            <h2 id="skills">My Skills</h2>
-            <aside>
-              <ul>
-                <li>
-                  <img src="images/icons/html.png" alt="HTML Icon" width="100" height="100">
+        <section class="skills">
+            <h2>My Skills</h2>
+            <div class="skills-card">
+              <ul class="skill-list">
+                <li class="skill-box">
+                  <img src="images/icons/html.png" alt="HTML Icon">
                   <p>HTML</p>
                 </li>
-                <li>
-                    <img src="images/icons/css-3.png" alt="CSS Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/css-3.png" alt="CSS Icon">
                     <p>CSS</p>
                   </li>
-                <li>
-                  <img src="images/icons/js.png" alt="JavaScript Icon" width="100" height="100">
+                <li class="skill-box">
+                  <img src="images/icons/js.png" alt="JavaScript Icon">
                   <p>JavaScript</p>
                 </li>
-                <li>
-                  <img src="images/icons/react.png" alt="React Icon" width="100" height="100">
+                <li class="skill-box">
+                  <img src="images/icons/react.png" alt="React Icon">
                   <p>React.js</p>
                 </li>
-                <li>
-                    <img src="images/icons/node-js.png" alt="Node.js Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/node-js.png" alt="Node.js Icon">
                     <p>Node.js</p>
                 </li>
-                <li>
-                    <img src="images/icons/python.png" alt="Python Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/python.png" alt="Python Icon">
                     <p>Python</p>
                 </li>
-                <li>
-                    <img src="images/icons/java.png" alt="Java Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/java.png" alt="Java Icon">
                     <p>Java</p>
                 </li>
-                <li>
-                    <img src="images/icons/c-.png" alt="C++ Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/c-.png" alt="C++ Icon">
                     <p>C++</p>
                 </li>
-                <li>
-                    <img src="images/icons/mysql.png" alt="MYSQL Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/mysql.png" alt="MYSQL Icon">
                     <p>MYSQL</p>
                 </li>
-                <li>
-                    <img src="images/icons/golang.png" alt="Go Icon" width="100" height="100">
+                <li class="skill-box">
+                    <img src="images/icons/golang.png" alt="Go Icon">
                     <p>Go</p>
                 </li>
+                <li class="skill-box">
+                    <img src="images/icons/git.png" alt="GIT Icon">
+                    <p>GIT</p>
+                </li>
+                <li class="skill-box">
+                    <img src="images/icons/programing.png" alt="NPM Icon">
+                    <p>NPM</p>
+                </li>
               </ul>
-            </aside>
+            </div>
         </section>
       
-        <section aria-labelledby="interests">
-            <h2 id="interests">My Interests</h2>
-            <div class="interests-gallery">
-                <figure>
-                    <img src="images/setup.jpg" alt="Coding setup" width="500" height="400">
-                    <figcaption>Coding</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/hiking.jpg" alt="Beautiful travel destination" width="500" height="400">
-                    <figcaption>Travel and Hiking</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/photography.jpg" alt="Photography equipment" width="500" height="400">
-                    <figcaption>Photography</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/fitness.jpg" alt="Fitness activities" width="500" height="400">
-                    <figcaption>Fitness and Health</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/swimming.jpg" alt="swimming" width="500" height="400">
-                    <figcaption>swimming</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/football.jpg" alt="Football match" width="500" height="400">
-                    <figcaption>Football</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/reading.jpg" alt="Reading a book" width="500" height="400">
-                    <figcaption>Reading</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/martial arts.jpg" alt="Practicing martial arts" width="500" height="400">
-                    <figcaption>Martial Arts</figcaption>
-                </figure>
+        <section class="interests">
+            <h2>Interests</h2>
+            <div class="interest-block">
+                <div class="interests-gallery">
+                    <figure >
+                        <img src="images/setup.jpg" alt="Coding setup">
+                        <figcaption>Coding</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/hiking.jpg" alt="Beautiful travel destination">
+                        <figcaption>Travel and Hiking</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/photography.jpg" alt="Photography equipment">
+                        <figcaption>Photography</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/fitness.jpg" alt="Fitness activities">
+                        <figcaption>Fitness and Health</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/swimming.jpg" alt="swimming">
+                        <figcaption>swimming</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/football.jpg" alt="Football match">
+                        <figcaption>Football</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/reading.jpg" alt="Reading a book">
+                        <figcaption>Reading</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/martial arts.jpg" alt="Practicing martial arts">
+                        <figcaption>Martial Arts</figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
     </main>
