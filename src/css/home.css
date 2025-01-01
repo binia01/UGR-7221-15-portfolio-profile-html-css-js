@@ -1,0 +1,112 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 120px;
+}
+.intro-text{
+    margin-right: 40px;
+    width: 775px;
+}
+.intro-text h1{
+    color: #111827;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.intro-text p{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 400;
+}
+.intro img{
+    width: 286px;
+    height: 300px;
+}
+
+.projects{
+    background-color: #F3F4F6;
+    padding: 30px;
+    height: auto;
+}
+.projects h2, .interests h2{
+    text-align: center;
+    color: #111827;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 30px;
+}
+.projects a, .interests a{
+    margin-top: 20px;
+    margin-right: 12px;
+    color: #4b5563;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.projects a:hover, .interests a:hover{
+    color: #111827;
+}
+.project-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+}
+.project-list li{
+    box-sizing: border-box;
+}
+.project-card{
+    width: 280px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 7%), 0 2px 2px rgba(0, 0, 0, 6%);
+    text-align: center;
+}
+.project-card img{
+    width: 193px;
+    height: 193px;
+    padding-top: 30px;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-content h2{
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+}
+.project-content p{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 400;
+    width: 193px;
+    text-align: center;
+}
+.project-icons img{
+    width: 39px;
+    height: 44px;
+    margin-right: 10px;
+    padding: 0;
+}
+.interests{
+    padding: 40px;
+    height: auto;
+}
+.interests-gallery{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+
+}
+.interests-gallery img{
+    width: 287px;
+    height: 239px;
+}

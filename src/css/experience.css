@@ -1,0 +1,165 @@
+section h2{
+    color: #111827;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+.volunteer{
+    background-color: #F3F4F6;
+    padding: 30px;
+    height: auto;
+}
+.education-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 120px;
+    row-gap: 90px;
+}
+.school{
+    display: flex;
+    gap: 70px;
+    align-items: start;
+    width: 1180px;
+    height: auto;
+    padding: 15px;
+    background-color: #f3f4f6;
+    border-radius: 14px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 7%), 0 2px 2px rgba(0, 0, 0, 6%);
+}
+.school img{
+    width: 220px;
+    height: 250px;
+    border-radius: 50%;
+}
+.content h3{
+    color: #111827;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.content p{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icons img, .gainedskill img{
+    width: 41px;
+    height: 40px;
+    border-radius: 0%;
+}
+.volunteer-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 70px 120px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 50px;
+}
+.video-container h3{
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+}
+.quality{
+    list-style: none;
+    color: #4b5563;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+.gainedskill{
+    display: flex;
+    gap: 40px;
+}
+.gainedskill img{
+    width: 85px;
+    height: 70px;
+}
+.activities-list{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.activities{
+    list-style: none;
+    row-gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+.participation{
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    width: 552px;
+    height: 125px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 7%), 0 2px 2px rgba(0, 0, 0, 6%);
+    margin-bottom: 30px;
+    
+}
+.participation h3{
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+}
+.role{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+.contribution{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+.work-grid{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+.company{
+    background-color: #F3F4F6;
+    border-radius: 14px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 7%), 0 2px 2px rgba(0, 0, 0, 6%);
+    width: 384px;
+    height: auto;
+    padding: 20px 30px;
+}
+.company h3{
+    color: #111827;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p1{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.p2{
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: center;
+}
+
