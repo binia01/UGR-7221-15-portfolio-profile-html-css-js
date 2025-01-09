@@ -2,16 +2,23 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     background-color: #ffffff;
 }
+header{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 7%);
+}
 .nav-bar{
-    margin: 20px 120px;
+    margin: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1400px;
-    height: 36px;
+    width: auto;
+    height: 80px;
 }
 .logo{
     color: #111827;
@@ -23,13 +30,29 @@ body{
 .links{
     list-style: none;
     display: flex;
+    gap: 1rem;
 }
 .links a{
     color: #4b5563;
     font-weight: medium;
     font-size: 1rem;
     text-decoration: none;
-    margin-right: 1rem;
+}
+.links a:hover{
+    color: #111827;
+    cursor: pointer;
+}
+.links a.active{
+    color:#111827;
+    text-decoration: underline;
+}
+.toggle-button{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #111827;
+    cursor: pointer;
 }
 footer{
     background-color: #F3F4F6;
@@ -38,6 +61,49 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 97px;
+    height: 15vh;
+}
+@media (max-width:1024px){
+    .nav-bar{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .links{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 36px;
+        left: 0;
+        padding: 1rem 0;
+        z-index: 10;
+    }
+    .links.active{
+        display: flex;
+    }
+    .toggle-button{
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #111827;
+        cursor: pointer;
+    }
+}
+@media (max-width: 768px){
+    .nav-bar{
+        margin: 10px;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .links a{
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
 }
 

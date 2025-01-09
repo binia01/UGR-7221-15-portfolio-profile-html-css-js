@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 120px;
+    margin: 0 120px;
+    height: 80vh;
 }
 .intro-text{
     margin-right: 40px;
-    width: 775px;
+    width: 55vw;
 }
 .intro-text h1{
     color: #111827;
@@ -23,7 +24,9 @@
     width: 286px;
     height: 300px;
 }
-
+.explore{
+    display: none;
+}
 .projects{
     background-color: #F3F4F6;
     padding: 30px;
@@ -37,17 +40,26 @@
     margin: 0;
     padding-top: 30px;
 }
+.project-link, .interest-link{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
 .projects a, .interests a{
     margin-top: 20px;
     margin-right: 12px;
     color: #4b5563;
     font-weight: 400;
     font-size: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
+    
 }
 .projects a:hover, .interests a:hover{
     color: #111827;
+    text-decoration: underline;
 }
+
 .project-list{
     list-style: none;
     display: flex;
@@ -109,4 +121,134 @@
 .interests-gallery img{
     width: 287px;
     height: 239px;
+}
+/* tablet landscape */
+@media (max-width:1024px) and (orientation: landscape){
+    .projects{
+        display: none;
+    }
+    .interests{
+        display: none;
+    }
+    .explore{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .explore a{
+        text-decoration: none;
+        color: #f3f4f6;
+        background-color: #111827;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 7px;
+        width: fit-content;
+        height: auto;
+        border-radius: 12px;
+    }
+
+}
+/* tablet portrait */
+@media (max-width:800px) and (orientation: portrait) {
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro-text{
+        text-align: left;
+    }
+    .projects{
+        display: none;
+    }
+    .interests{
+        display: none;
+    }
+    .explore{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .explore a{
+        text-decoration: none;
+        color: #f3f4f6;
+        background-color: #111827;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 7px;
+        width: fit-content;
+        height: auto;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width:480px) and (orientation: portrait){
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro-text p{
+        display: none;
+    }
+    .intro img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    .projects{
+        display: none;
+    }
+    .interests{
+        display: none;
+    }
+    .explore{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    #project-button{
+        display: none;
+    }
+    .explore a{
+        text-decoration: none;
+        color: #f3f4f6;
+        background-color: #111827;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 7px;
+        width: fit-content;
+        height: auto;
+        border-radius: 12px;
+    }
+
+}
+@media (max-width:767px) and(orientation: landscape){
+    .intro-text p{
+        display: none;
+    }
+    .projects{
+        display: none;
+    }
+    .intro img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    .interests{
+        display: none;
+    }
+    .explore{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .explore a{
+        text-decoration: none;
+        color: #f3f4f6;
+        background-color: #111827;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 7px;
+        width: fit-content;
+        height: auto;
+        border-radius: 12px;
+    }
+
 }

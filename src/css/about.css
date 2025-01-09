@@ -91,3 +91,62 @@
     width: 258px;
     height: 240px;
 }
+
+/* Tablets - Landscape */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .about-me img {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .intro-para {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-text {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .skills-card {
+        flex-wrap: wrap;
+    }
+    .skill-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 40px;
+    }
+    .interests-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 50px;
+    }
+}
+
+/* Tablets - Portrait */
+@media (max-width: 800px) and (orientation: portrait) {
+    .about-me img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .intro-para {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .skills-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skill-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .interests-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 30px;
+    }
+}

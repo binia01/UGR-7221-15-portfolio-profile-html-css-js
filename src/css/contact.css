@@ -105,3 +105,19 @@ form button{
     height: auto;
     border-radius: 12px;
 }
+/* Tablets - Landscape */
+@media (max-width: 1024px) and (orientation: landscape) {
+    /* Styles for tablet landscape */
+}
+/* Tablets - Portrait */
+@media (max-width: 800px) and (orientation: portrait) {
+    /* Styles for tablet portrait */
+}
+/* Phones - Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Styles for phone landscape */
+}
+/* Phones - Portrait */
+@media (max-width: 480px) and (orientation: portrait) {
+    /* Styles for phone portrait */
+}
