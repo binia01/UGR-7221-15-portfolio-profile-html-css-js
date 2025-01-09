@@ -10,13 +10,16 @@
 <body>
     <header class="header">
         <nav class="nav-bar">
-            <a href="home.html" class="logo">BINYAM ABRHA</a>
+            <a href="./home.html" class="logo">BINYAM ABRHA</a>
+            <button class="toggle-button" aria-label="Toggle navigation">
+                ☰
+              </button>
             <ul class="links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,8 +33,12 @@
                 </p>
                 <p>Addis Ababa, Ethiopia</p>
                 <p>Available for new projects</p>
+                <div class="explore">
+                    <a href="./projects.html" class="button" id="project-button">VIEW PROJECTS</a>
+                    <a href="./about.html" class="button" id="about-button">EXPLORE INTERESTS</a>
+                </div>
             </div>
-            <img src="./images/BINYAM.png">
+            <img src="./images/BINYAM.png" class="profile-pic">
         </section>
 
         <section class="projects">
@@ -39,67 +46,72 @@
             <ul class="project-list">
               <li>
                 <div class="project-card">
-                    <img src="images/weather-app.png" alt="Weather App">
+                    <img src="./images/weather-app.png" alt="Weather App">
                     <div class="project-content">
                         <h2>Weather Tracker</h2>
                         <p>
                             A real-time weather forecasting app that provides accurate data for any location. 
                         </p>
                         <div class="project-icons">
-                            <img src="images/icons/html.png" alt="HTML Icon">
-                            <img src="images/icons/css-3.png" alt="CSS Icon">
-                            <img src="images/icons/js.png" alt="JavaScript Icon">
+                            <img src="./images/icons/html.png" alt="HTML Icon">
+                            <img src="./images/icons/css-3.png" alt="CSS Icon">
+                            <img src="./images/icons/js.png" alt="JavaScript Icon">
                         </div>
                     </div>
                 </div>
               </li>
               <li>
                 <div class="project-card">
-                    <img src="images/calculator.png" alt="Calculator">
+                    <img src="./images/calculator.png" alt="Calculator">
                     <div class="project-content">
                         <h2>Calculator</h2>
                         <p>An intuitive app that allows users to perform basic mathematical operations.</p>
                         <div class="project-icons">
-                            <img src="images/icons/react.png" alt="React Icon">
-                            <img src="images/icons/node-js.png" alt="Node.js Icon">
-                            <img src="images/icons/mysql.png" alt="MYSQL Icon">
+                            <img src="./images/icons/react.png" alt="React Icon">
+                            <img src="./images/icons/node-js.png" alt="Node.js Icon">
+                            <img src="./images/icons/mysql.png" alt="MYSQL Icon">
                         </div>
                     </div>
                 </div>
               </li>
               <li>
                 <div class="project-card">
-                    <img src="images/task.png" alt="Task Manager">
+                    <img src="./images/task.png" alt="Task Manager">
                     <div class="project-content">
                         <h2>Task Manager</h2>
                         <p>A productivity app designed to manage daily tasks effectively and efficiently..</p>
                         <div class="project-icons">
-                            <img src="images/icons/react.png" alt="React Icon">
-                            <img src="images/icons/node-js.png" alt="Node node-js Icon">
-                            <img src="images/icons/python.png" alt="Python Icon">
+                            <img src="./images/icons/react.png" alt="React Icon">
+                            <img src="./images/icons/node-js.png" alt="Node node-js Icon">
+                            <img src="./images/icons/python.png" alt="Python Icon">
                         </div>
                     </div>
                 </div>
               </li>
             </ul>
-            <a href="projects.html" class="button">View All Projects</a>
+            <div class="project-link">
+                <a href="./projects.html" class="button">View All Projects</a>
+            </div>
+            
         </section>
 
         <section class="interests">
             <h2>My Interests</h2>
             <div class="interests-gallery">
-                <img src="images/setup.jpg" alt="Coding setup">
-                <img src="images/hiking.jpg" alt="Beautiful travel destination">
-                <img src="images/photography.jpg" alt="Photography equipment">
-                <img src="images/fitness.jpg" alt="Fitness activities">
+                <img src="./images/setup.jpg" alt="Coding setup">
+                <img src="./images/hiking.jpg" alt="Beautiful travel destination">
+                <img src="./images/photography.jpg" alt="Photography equipment">
+                <img src="./images/fitness.jpg" alt="Fitness activities">
             </div>
-            <a href="about.html" class="button">Learn More About Me</a>
+            <div class="interest-link">
+                <a href="./about.html" class="button">Learn More About Me</a>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>© 2024 Binyam Abrha. All Rights Reserved.</p>
     </footer>
-    
+    <script src="./js/navbar.js"></script>
 </body>
 </html>
