@@ -123,7 +123,7 @@
     height: 239px;
 }
 /* tablet landscape */
-@media (max-width:1024px) and (orientation: landscape){
+@media (min-width: 769px) and (max-width: 1025px) and (max-height: 800px) and (min-height: 481px) and (orientation: landscape){
     .projects{
         display: none;
     }
@@ -149,7 +149,7 @@
 
 }
 /* tablet portrait */
-@media (max-width:800px) and (orientation: portrait) {
+@media (min-width: 601px) and (max-width: 800px) and (max-height: 1280px) and (min-height: 768px) and (orientation: portrait){
     .intro{
         flex-direction: column-reverse;
     }
@@ -180,7 +180,7 @@
     }
 }
 
-@media (max-width:480px) and (orientation: portrait){
+@media (min-width: 300px) and (max-width: 480px) and (max-height: 900px) and (min-height: 481px) and (orientation: portrait){
     .intro{
         flex-direction: column-reverse;
     }
@@ -219,7 +219,7 @@
     }
 
 }
-@media (max-width:767px) and(orientation: landscape){
+@media (min-width: 481px) and (max-width: 900px) and (max-height: 480px) and (min-height: 300px) and (orientation: landscape){
     .intro-text p{
         display: none;
     }
@@ -238,6 +238,9 @@
         display: flex;
         justify-content: center;
         gap: 10px;
+    }
+    #project-button{
+        display: none;
     }
     .explore a{
         text-decoration: none;

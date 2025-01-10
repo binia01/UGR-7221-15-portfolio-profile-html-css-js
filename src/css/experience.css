@@ -164,20 +164,167 @@ section h2{
 }
 
 /* Tablets - Landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 769px) and (max-width: 1025px) and (max-height: 800px) and (min-height: 481px) and (orientation: landscape) {
     /* Styles for tablet landscape */
+    .school-icon{
+      display: none;
+    }
+    .education-section{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .video-container video{
+        width: 400px;
+        height:200px
+    }
+    .video-container h3{
+        display: none;
+    }
+    .video-container ol{
+        display: none;
+    }
+    .video-container div{
+        display: none;
+    }
+    .work-grid{
+        flex-wrap: wrap;
+    }
 }
+
 /* Tablets - Portrait */
-@media (max-width: 800px) and (orientation: portrait) {
+@media (min-width: 601px) and (max-width: 800px) and (max-height: 1280px) and (min-height: 768px) and (orientation: portrait) {
     /* Styles for tablet portrait */
+    .school-icon{
+        display: none;
+    }
+    .education-section{
+        display: flex;
+        flex-direction: column;  
+    }
+    .volunteer-section{
+        grid-template-columns: 1fr;
+    }
+    .video-container video{
+        width: 400px;
+        height:200px
+    }
+    .video-container h3{
+        display: none;
+    }
+    .video-container ol{
+        display: none;
+    }
+    .video-container div{
+        display: none;
+    }
+    .work-grid{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
 }
+
 /* Phones - Landscape */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 900px) and (max-height: 480px) and (min-height: 300px) and (orientation: landscape) {
     /* Styles for phone landscape */
+    .school img{
+        display: none;
+      }
+      .education-section{
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+      }
+      .volunteer-section{
+        grid-template-columns: 1fr;
+        }
+      .video-container video{
+          width: 400px;
+          height:200px
+      }
+      .video-container h3{
+          display: none;
+      }
+      .video-container ol{
+          display: none;
+      }
+      .video-container div{
+          display: none;
+      }
+      .activities-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+      .participation{
+        width: 55vw;
+        height: auto;
+      }
+      .work-grid{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .company{
+        width: 54vw;
+        height: auto;
+        padding: 20px 30px;
+    }
 }
+
 /* Phones - Portrait */
-@media (max-width: 480px) and (orientation: portrait) {
+@media (min-width: 300px) and (max-width: 480px) and (max-height: 900px) and (min-height: 481px) and (orientation: portrait) {
     /* Styles for phone portrait */
+    .school img{
+        display: none;
+    }
+    .education-section{
+        display: flex;
+        flex-direction: column;  
+    }
+    .volunteer-section{
+        grid-template-columns: 1fr;
+    }
+    .video-container video{
+        width: 400px;
+        height:200px
+    }
+    .activities-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .participation{
+        width: 85vw;
+        height: auto;
+    }
+    .video-container h3{
+        display: none;
+    }
+    .video-container ol{
+        display: none;
+    }
+    .video-container div{
+        display: none;
+    }
+    .work-grid{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .company{
+        width: 54vw;
+        height: auto;
+        padding: 20px 30px;
+    }
+
 }
+
 
 
